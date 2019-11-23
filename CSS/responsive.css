@@ -1,0 +1,139 @@
+@media (min-width: 768px)
+{
+	.search
+	{
+		display: inline-block;
+	}
+
+	.ham
+	{
+		display: none;
+	}
+
+	.navigation li
+	{
+		display: inline;
+		line-height: 40px;
+		padding-left: 11px;
+		padding-right: 11px;
+	}
+
+	.navigation:hover ~ .notification
+{
+	display: block;
+}
+
+	.navigation li a
+	{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.navigation li:first-child
+	{
+		padding-left: 10px;
+	}
+
+	.notification li
+	{
+		line-height: 40px;
+	}
+
+	.notification li a
+	{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.invite
+	{
+		background-position: 16px;
+		padding-left: 30px;
+	}
+
+	.requests
+	{
+		background-position: 16px;
+		padding-left: 40px;
+	}
+
+	.top-right
+	{
+		display: block;
+	}
+
+	.useraccount
+	{
+		display: none;
+	}
+
+	.navigation
+	{
+		display: inline-block;
+	}
+
+	.feeds
+	{
+		width: 70.270270%;
+	}
+
+	.feed
+	{
+		font-size: 16px;
+	}
+
+	.right-sidebar
+	{
+		width:25.675675%;
+		display: block;
+	}
+
+		
+	.footer
+	{
+		font-size: 16px;
+	}
+
+	.footer-navigation
+	{
+		float: left;
+	}
+
+	.about
+	{
+		float: right;
+		padding-top:2.083333%;
+		padding-bottom: 1.770833%;
+	}
+
+}
+@media (min-width: 992px)
+{
+	.friend-request, .topic-box-invite
+	{
+	display: inline;
+	}
+	.container
+	{
+		padding-left:0;
+		padding-right:0;
+	}
+
+	.left-sidebar
+	{
+		width: 19.791666%;
+		display: block;
+	}
+
+	.body-right
+	{
+		width: 77.083333%;
+	}
+
+	.entries
+	{
+		display: block;
+	}
+
+
+}
